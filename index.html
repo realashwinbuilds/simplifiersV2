@@ -229,7 +229,7 @@
     .nav-drawer { display: flex; }
 
     .hero { padding: 100px 20px 60px; }
-    .hero h1 { letter-spacing: -2px; }
+    .hero h1 { letter-spacing: -2px;     font-size: clamp(46px, 8vw, 96px) !important;}
     .hero p { font-size: 16px; }
     .hero-actions { flex-direction: column; align-items: center; gap: 12px; }
     .hero-actions a { width: 100%; max-width: 300px; text-align: center; }
@@ -237,7 +237,7 @@
     .stat-num { font-size: 28px; }
 
     /* SERVICES — single column stacked cards */
-    .services { padding: 64px 20px; }
+    .services { padding: 64px 20px !important; }
     .section-title { letter-spacing: -1px; }
     .services-grid {
       grid-template-columns: 1fr !important;
@@ -258,7 +258,7 @@
    .why-card.c2 {top: 35% !important;}
    .why-card.c3 { left: 0 !important;}
 
-    .process { padding: 64px 20px; }
+    .process { padding: 64px 20px !important; }
     .process-steps { flex-direction: column; gap: 28px; }
     .process-steps::before { display: none; }
     .step { text-align: left; display: flex; gap: 16px; align-items: flex-start; padding: 0; }
@@ -266,7 +266,7 @@
     .step-text { display: flex; flex-direction: column; }
 
     /* WHY US — replace float layout with stacked metric cards */
-    .why { padding: 64px 20px; }
+    .why { padding: 64px 20px !important; }
     .why-grid { grid-template-columns: 1fr; gap: 40px; }
     .why-visual {
       height: auto;
@@ -284,14 +284,14 @@
     }
 
     /* TESTIMONIALS — single column stacked */
-    .testimonials { padding: 64px 20px; }
+    .testimonials { padding: 64px 20px !important; }
     .testimonials-grid {
       grid-template-columns: 1fr !important;
       gap: 16px;
     }
     .testimonial-card { padding: 24px 20px; }
 
-    .cta-section { padding: 64px 20px; }
+    .cta-section { padding: 64px 20px !important; }
     .cta-form { flex-direction: column; gap: 12px; }
     .cta-form input, .cta-form button { width: 100%; }
 
